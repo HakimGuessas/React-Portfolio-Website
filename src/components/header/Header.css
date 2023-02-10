@@ -1,0 +1,85 @@
+header {
+  height: 100vh;
+  padding-top: 4rem;
+}
+
+.header_container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+  padding: 5rem 0 0;
+}
+
+/* ============== CTA =============== */
+.cta {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+/* ============== HEADER SOCIALS =============== */
+.header__socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 6rem;
+}
+/* ============== ME =============== */
+.me {
+  /* background: linear-gradient(var(--color-primary), transparent);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50%);
+  transform: translateX(-50%);
+  margin-top: 3rem;
+  border-radius: 12rem 12rem 0rem 0rem;
+  padding: 3rem 3rem 0rem; */
+  display: none;
+}
+
+/* ============== SCROLL DOWN =============== */
+.scroll__down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+/* ============== MEDIA QUERIES (MEDIUM DEVICES) ============= */
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+  }
+
+  /* .me {
+    width: 25rem;
+    height: 25rem;
+  } */
+}
+
+/* ============== MEDIA QUERIES (SMALL DEVICES) ============= */
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+
+  .scroll__down {
+    display: none;
+  }
+
+  .header__socials {
+    margin-top: 2rem;
+  }
+
+  /* .header__socials {
+    flex-direction: row;
+    left: 50%;
+    bottom: 8rem;
+    transform: translate(-50%, -50%);
+  } */
+}
