@@ -1,11 +1,5 @@
 import React from 'react'
 import "./Portfolio.css"
-import IMG1 from "../../assets/portfolio1.jpg"
-import IMG2 from "../../assets/portfolio2.jpg"
-import IMG3 from "../../assets/portfolio3.jpg"
-import IMG4 from "../../assets/portfolio4.jpg"
-import IMG5 from "../../assets/portfolio5.png"
-import IMG6 from "../../assets/portfolio6.jpg"
 
 const Portfolio = () => {
 
@@ -63,7 +57,7 @@ const Portfolio = () => {
         {projects.map((project) => (
           <article className='portfolio__item' key={project.id}>
             <div className="portfolio__image">
-              <img src={project.image} alt="Title of my Project" />
+              <img src="../../assets/portfolio1.jpg" alt="Title of my Project" />
             </div>
             <h3>{project.title}</h3>
             <div className="portfolio__item-cta">
