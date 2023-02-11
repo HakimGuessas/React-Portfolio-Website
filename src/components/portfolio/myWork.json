@@ -3,15 +3,15 @@
     "id": 1,
     "image": "/portfolioimg/portfolio1.jpg",
     "title": "React Portfolio Website",
-    "github": "https://github.com/HakimGuessas/ArabicTemplatewithBootstrap",
-    "demo": "https://hakimguessas.github.io/ArabicTemplatewithBootstrap/"
+    "github": "https://github.com/HakimGuessas/React-Portfolio-Website",
+    "demo": "https://hakimguessas.github.io/React-Portfolio-Website/"
   },
   {
     "id": 2,
     "image": "/portfolioimg/portfolio2.jpg",
     "title": "React Shopping Cart",
-    "github": "https://github.com/HakimGuessas/ArabicTemplatewithBootstrap",
-    "demo": "https://hakimguessas.github.io/ArabicTemplatewithBootstrap/"
+    "github": "https://github.com/HakimGuessas/React-Shopping-Cart",
+    "demo": "https://hakimguessas.github.io/React-Shopping-Cart/"
   },
   {
     "id": 3,
