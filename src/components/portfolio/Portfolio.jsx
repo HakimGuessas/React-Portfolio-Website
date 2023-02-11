@@ -13,42 +13,42 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      image: {IMG1},
+      image: "../../assets/portfolio1.jpg",
       title: "React Portfolio Website",
       github: "https://github.com/HakimGuessas/React-Portfolio-Website",
       demo: "https://hakimguessas.github.io/React-Portfolio-Website/"
     },
     {
       id: 2,
-      image: {IMG2},
+      image: "../../assets/portfolio2.jpg",
       title: "React Shopping Cart",
       github: "https://github.com/HakimGuessas/React-Shopping-Cart",
       demo: "https://hakimguessas.github.io/React-Shopping-Cart/"
     },
     {
       id: 3,
-      image: {IMG3},
+      image: "../../assets/portfolio3.jpg",
       title: "JS Shopping Cart",
       github: "https://github.com/HakimGuessas/ShppingCartApplication",
       demo: "https://hakimguessas.github.io/ShppingCartApplication/"
     },
     {
       id: 4,
-      image: {IMG4},
+      image: "../../assets/portfolio4.jpg",
       title: "Arabic Template Usign Bootstrap",
       github: "https://github.com/HakimGuessas/ArabicTemplatewithBootstrap",
       demo :"https://hakimguessas.github.io/ArabicTemplatewithBootstrap/"
     },
     {
       id: 5,
-      image: {IMG5},
+      image: "../../assets/portfolio5.png",
       title: "Video Games Website",
       github: "https://github.com/HakimGuessas/Template_Three",
       demo: "https://hakimguessas.github.io/Template_Three/"
     },
     {
       id: 6,
-      image: {IMG6},
+      image: "../../assets/portfolio6.jpg",
       title: "Kasper",
       github: "https://github.com/HakimGuessas/Html_Css-Template2",
       demo: "https://hakimguessas.github.io/Html_Css-Template2/"
