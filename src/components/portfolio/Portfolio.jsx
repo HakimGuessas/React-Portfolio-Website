@@ -14,42 +14,42 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      image: {img1},
+      image: img1,
       title: "React Portfolio Website",
       github: "https://github.com/HakimGuessas/React-Portfolio-Website",
       demo: "https://hakimguessas.github.io/React-Portfolio-Website/"
     },
     {
       id: 2,
-      image:  {img1},
+      image:  img2,
       title: "React Shopping Cart",
       github: "https://github.com/HakimGuessas/React-Shopping-Cart",
       demo: "https://hakimguessas.github.io/React-Shopping-Cart/"
     },
     {
       id: 3,
-      image: {img1},
+      image: img3,
       title: "JS Shopping Cart",
       github: "https://github.com/HakimGuessas/ShppingCartApplication",
       demo: "https://hakimguessas.github.io/ShppingCartApplication/"
     },
     {
       id: 4,
-      image: {img1},
+      image: img4,
       title: "Arabic Template Usign Bootstrap",
       github: "https://github.com/HakimGuessas/ArabicTemplatewithBootstrap",
       demo :"https://hakimguessas.github.io/ArabicTemplatewithBootstrap/"
     },
     {
       id: 5,
-      image: {img1},
+      image: img5,
       title: "Video Games Website",
       github: "https://github.com/HakimGuessas/Template_Three",
       demo: "https://hakimguessas.github.io/Template_Three/"
     },
     {
       id: 6,
-      image: {img1},
+      image: img6,
       title: "Kasper",
       github: "https://github.com/HakimGuessas/Html_Css-Template2",
       demo: "https://hakimguessas.github.io/Html_Css-Template2/"
@@ -64,7 +64,7 @@ const Portfolio = () => {
         {projects.map((project) => (
           <article className='portfolio__item' key={project.id}>
             <div className="portfolio__image">
-              <img src={img1} alt="Title of my Project" />
+              <img src={project.image} alt={project.title} />
             </div>
             <h3>{project.title}</h3>
             <div className="portfolio__item-cta">
