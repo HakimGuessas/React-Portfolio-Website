@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Portfolio.css"
+import img1 from "../..assets/portfolio1.jpg"
+
 
 const Portfolio = () => {
 
@@ -7,42 +9,42 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      image: "../../assets/portfolio1.jpg",
+      image: {img1},
       title: "React Portfolio Website",
       github: "https://github.com/HakimGuessas/React-Portfolio-Website",
       demo: "https://hakimguessas.github.io/React-Portfolio-Website/"
     },
     {
       id: 2,
-      image: "../../assets/portfolio2.jpg",
+      image:  {img1},
       title: "React Shopping Cart",
       github: "https://github.com/HakimGuessas/React-Shopping-Cart",
       demo: "https://hakimguessas.github.io/React-Shopping-Cart/"
     },
     {
       id: 3,
-      image: "../../assets/portfolio3.jpg",
+      image: {img1},
       title: "JS Shopping Cart",
       github: "https://github.com/HakimGuessas/ShppingCartApplication",
       demo: "https://hakimguessas.github.io/ShppingCartApplication/"
     },
     {
       id: 4,
-      image: "../../assets/portfolio4.jpg",
+      image: {img1},
       title: "Arabic Template Usign Bootstrap",
       github: "https://github.com/HakimGuessas/ArabicTemplatewithBootstrap",
       demo :"https://hakimguessas.github.io/ArabicTemplatewithBootstrap/"
     },
     {
       id: 5,
-      image: "../../assets/portfolio5.png",
+      image: {img1},
       title: "Video Games Website",
       github: "https://github.com/HakimGuessas/Template_Three",
       demo: "https://hakimguessas.github.io/Template_Three/"
     },
     {
       id: 6,
-      image: "../../assets/portfolio6.jpg",
+      image: {img1},
       title: "Kasper",
       github: "https://github.com/HakimGuessas/Html_Css-Template2",
       demo: "https://hakimguessas.github.io/Html_Css-Template2/"
