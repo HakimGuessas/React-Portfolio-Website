@@ -40,7 +40,7 @@ const Contact = () => {
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>Abd Al Hakim Geussase</h5>
-            <a href="https://m.me/profile.php?id=100004342039105" target="_blank">Send a message</a>
+            <a href="https://m.me/GuessasHakim25" target="_blank">Send a message</a>
           </article>
 
           <article className='contact__option'>
